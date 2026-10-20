@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ogdenriver Apps</title>
+  <meta name="description" content="iPhone apps by Ogdenriver: Counterpart Business and Pushup Tracker.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,600&display=swap">
+  <style>
+    :root { --bg:#f6f4ee; --surface:#fff; --ink:#17221f; --muted:#5c6763; --line:#dcd8cc; --teal:#0f6b63; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0e1513; --surface:#16201d; --ink:#e8eeeb; --muted:#9aa8a3; --line:#2a3632; --teal:#5fc7b8; } }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 "Inter", system-ui, sans-serif; }
+    .wrap { max-width:720px; margin:0 auto; padding:56px 20px; }
+    h1 { font:600 46px/1.1 "Newsreader", Georgia, serif; margin:0 0 10px; }
+    .lede { color:var(--muted); margin:0 0 36px; }
+    a.app { display:flex; gap:18px; align-items:center; padding:18px; margin-bottom:14px; background:var(--surface); border:1px solid var(--line); border-radius:20px; color:inherit; text-decoration:none; }
+    a.app:hover { border-color:var(--teal); }
+    a.app img { width:64px; height:64px; border-radius:15px; flex:none; }
+    .ph { width:64px; height:64px; border-radius:15px; flex:none; background:var(--teal); color:#fff; display:grid; place-items:center; font:600 28px "Newsreader", serif; }
+    h2 { font:600 22px "Newsreader", Georgia, serif; margin:0; }
+    a.app p { margin:2px 0 0; color:var(--muted); font-size:15px; }
+    footer { margin-top:40px; color:var(--muted); font-size:14px; }
+    footer a { color:var(--teal); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Ogdenriver Apps</h1>
+    <p class="lede">Small, focused iPhone apps. Pick one for its home page, support, privacy policy and terms.</p>
+    <a class="app" href="/counterpart-support/">
+      <img src="counterpart.png" alt="Counterpart Business icon">
+      <div><h2>Counterpart Business</h2><p>Message the businesses you work with, send invoices and proposals, and schedule meetings they can see.</p></div>
+    </a>
+    <a class="app" href="/pushup-tracker-support/">
+      <div class="ph" aria-hidden="true">P</div>
+      <div><h2>Pushup Tracker</h2><p>Track your daily push-ups and build a streak.</p></div>
+    </a>
+    <footer>Counterpart Business: <a href="/counterpart-support/privacy.html">Privacy</a> · <a href="/counterpart-support/terms.html">Terms</a></footer>
+  </div>
+</body>
+</html>
